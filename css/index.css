@@ -160,7 +160,7 @@ footer {
     .container{
         margin: 0 0;
         width: 400px;
-        background-color: salmon;
+        /* background-color: salmon; */
     }
 
     header {
@@ -224,7 +224,8 @@ footer {
 @media(min-width: 800px){
     .container{
         width: 1024px;
-        background-color: yellow;
+        margin: 0 auto;
+        /* background-color: yellow; */
     }
     header {
         display: flex;
