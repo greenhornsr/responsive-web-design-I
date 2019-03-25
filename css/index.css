@@ -118,6 +118,10 @@ header nav a:first-child{
     line-height: 20px;
 }
 
+.rnd-head-code-img {
+    display: none;
+}
+
 .mid-pg-accentimg {
     padding-top: 2px;
     max-width: 100%;
@@ -156,7 +160,7 @@ footer {
     .container{
         margin: 0 0;
         width: 400px;
-        background-color: yellow;
+        background-color: salmon;
     }
 
     header {
@@ -190,6 +194,10 @@ footer {
         line-height: 1;
     }
 
+    .rnd-head-code-img {
+        display: none;
+    }
+
     .sec-head-tag {
         line-height: 0;
     }
@@ -215,6 +223,92 @@ footer {
 
 @media(min-width: 800px){
     .container{
-        background-color: orange;
+        width: 1024px;
+        background-color: yellow;
     }
+    header {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-around;
+        margin: 30px 0px;
+    }
+    header .head-logo img{
+        padding: 0;
+        padding-right: 40px;
+        width: 100%;
+    }
+    header nav a{
+        text-decoration: none;
+        border: none;
+        padding: 9px;
+        margin-left: 40px;
+        color: lightgray;
+        font-size: 16px;
+     }
+     .rnd-head-code-img {
+        display: block;
+        margin-left: 20px;
+    }
+     .header-bot {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: 40px 0 75px 50px;
+        /* padding-left: 20px; */
+    }
+
+     .iodtags {
+         margin-right: 60px;
+     }
+
+     .iod {
+         font-size: 70px;
+         line-height: .8
+     }
+     .header-bot button{
+        margin-top: 9.5px;
+        width: 200px;
+        font-size: 25px;
+        border: 1px solid gray;
+    
+    }
+    .mid-pg-accentimg {
+        margin: 30px 0;
+        max-width: 100%;
+        max-height: 100%;
+    }
+    
+    .mid-content {
+        height: 550px;
+        display: flex;
+        flex-wrap: wrap;
+        align-content: space-between;
+        margin: 30px 60px 0px;
+        padding: 30px 0;
+        border-top: 1px solid black;
+        border-bottom: 1px solid black;
+        font-size: 16px;
+    }
+    .mid-feat, .mid-about{
+        width: 49%;
+        margin: 15px 0;
+    }
+    .mid-serv, .mid-product, .mid-vision{
+        width: 32%;
+        margin: 0px 0 10px 10px;
+    }
+    address {
+        margin: 55px 70px;
+        padding: 0 0px;
+        font-size: 16px;
+    }
+    address h3 {
+        line-height: 0;
+    }
+    
+    footer {
+        text-align: center;
+        font-size: 16px;
+    }
+
 }
